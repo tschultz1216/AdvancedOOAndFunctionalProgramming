@@ -1,5 +1,5 @@
-# AdvancedOOAndFunctionalProgramming
-Midterm and Final project coursework:
+# Haskell-Infix-to-Postfix-Calculator
+Midterm  coursework:
 
 Midterm: Purely functional infix to postfix calculator made using String interpolation toextract number values alongside a stack to determine when each operation should occur.
 
