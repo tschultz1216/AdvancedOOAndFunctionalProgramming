@@ -6,5 +6,5 @@ Midterm: Purely functional infix to postfix calculator made using String interpo
 Compile Instructions: 
   - Download the GHC(General Haskell Compiler) if you do not already have it
   - Clone this repository
-  - Navigate to AdvancedOOAndFunctionalProgramming/
-  - Run command GHC ./InfixToPostfix.hs
+  - Navigate to Haskell-Infix-to-Postfix-Calculator/
+  - Run command ghc ./InfixToPostfix.hs
