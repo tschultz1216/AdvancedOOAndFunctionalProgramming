@@ -155,11 +155,13 @@ concatUntilDelimeter (x:xs) []
      | isOpt x  == True = concatUntilDelimeter xs []
      | isOpr x == True = concatUntilDelimeter xs [x]
      | isParenL x == True = []
+     | isParenR x == True = []
 concatUntilDelimeter (x:xs) lst
      | x == '$' = lst
      | isOpt x  == True = lst
      | isOpr x == True = concatUntilDelimeter xs (lst ++ [x])
      | isParenL x == True = lst
+     | isParenR x == True = lst
 
 popTop2 :: (Stack a) -> (Stack a)
 popTop2 (StackElem y z) = pop(pop(StackElem y z))
