@@ -7,4 +7,6 @@ Compile Instructions:
   - Download the GHC(General Haskell Compiler) if you do not already have it
   - Clone this repository
   - Navigate to Haskell-Infix-to-Postfix-Calculator/
-  - Run command ghc ./InfixToPostfix.hs
+  - Run command ghc ./InfixToPostfix.hs to create executable
+  - Run InfixToPostFix.exe
+  
